@@ -4,10 +4,10 @@ import {
   FastifyRequest,
   FastifyReply,
 } from "fastify";
-import { CreateCustomerController } from "./controllers/CreateCustomerController";
-import { ListCustomersController } from "./controllers/ListCustomersController";
-import { DeleteCustomerController } from "./controllers/DeleteCustomerController";
-import { ListUniqueCustomerController } from "./controllers/ListUniqueCustomerController";
+import { CreateCustomerController } from "../controllers/CreateCustomerController";
+import { ListCustomersController } from "../controllers/ListCustomersController";
+import { DeleteCustomerController } from "../controllers/DeleteCustomerController";
+import { ListUniqueCustomerController } from "../controllers/ListUniqueCustomerController";
 
 export async function routes(
   fastify: FastifyInstance,
