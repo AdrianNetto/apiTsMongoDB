@@ -1,4 +1,4 @@
-import prismaClient from "../prisma";
+import prismaClient from "@/prisma/index";
 
 class ListUniqueCustomerService {
   async execute(id: string) {
