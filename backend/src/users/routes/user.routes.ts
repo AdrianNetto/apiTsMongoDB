@@ -1,6 +1,5 @@
 import {
   FastifyInstance,
-  FastifyPluginOptions,
   FastifyRequest,
   FastifyReply,
 } from "fastify";
@@ -11,7 +10,6 @@ import { ListUniqueCustomerController } from "@/users/controllers/ListUniqueCust
 
 export async function routes(
   fastify: FastifyInstance,
-  options: FastifyPluginOptions
 ) {
   fastify.get("/test", async (request: FastifyRequest, reply: FastifyReply) => {
     return { ok: true };
