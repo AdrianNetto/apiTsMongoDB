@@ -8,6 +8,10 @@ class ListUniqueCustomerService {
       },
     });
 
+    if(!customer) {
+      throw new Error("Error: id not found in our database")
+    }
+
     return customer;
   }
 }
