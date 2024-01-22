@@ -13,4 +13,4 @@ class CreateCustomerController {
   }
 }
 
-export { CreateCustomerController };
+export { CreateCustomerController};
